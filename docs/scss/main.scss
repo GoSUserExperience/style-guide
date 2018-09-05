@@ -1,0 +1,191 @@
+@import "colours";
+@import "bootstrap.min";
+// @import "bootstrap-v4-utils";
+@import "bootstrap-overrides"; 
+
+// https://github.com/anvoz/bootstrap-tldr
+
+// below is only for github - not to be used in production
+/*
+#footer > .container {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.footer-content {
+  margin: 15px 0;
+  color: #999;
+}
+*/
+/* Bootstrap's example styles
+-------------------------------------------------- 
+.bse-buttons > .btn,
+.bse-buttons > .btn-group {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.bs-thumbnails > div {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}*/
+
+/* make this easier to read */
+html, body {
+  //background-color: #ddd;
+}
+.page-header:first-of-type {
+  margin-top: 50px;
+}
+.page-header,
+h2 {
+  margin-top: 100px;
+}
+.page-header + h2,
+h1 + h2 {
+  margin-top: 0;
+}
+
+/* Sidebar styles
+-------------------------------------------------- */
+.affix {
+  top: 20px;
+}
+.anvoz-sidebar {
+}
+
+.anvoz-sidebar .nav > .active > ul {
+  display: block;
+}
+
+.anvoz-sidebar .nav > li > a {
+  display: block;
+  font-weight: 500;
+  padding: 4px 20px;
+}
+.anvoz-sidebar .nav > li > a:hover,
+.anvoz-sidebar .nav > li > a:focus {
+  padding-left: 19px;
+  color: #333;
+  text-decoration: none;
+  background-color: transparent;
+  border-left: 1px solid #333;
+}
+.anvoz-sidebar .nav > .active > a,
+.anvoz-sidebar .nav > .active:hover > a,
+.anvoz-sidebar .nav > .active:focus > a {
+  padding-left: 18px;
+  font-weight: 700;
+  color: #333;
+  background-color: transparent;
+  border-left: 2px solid #333;
+}
+
+.anvoz-sidebar .nav .nav {
+  display: none;
+  padding-bottom: 10px;
+}
+
+.anvoz-sidebar .nav .nav > li > a {
+  padding-top: 1px;
+  padding-bottom: 1px;
+  padding-left: 20px;
+  font-size: 14px;
+  font-weight: 400;
+}
+.anvoz-sidebar .nav .nav > li > a:hover,
+.anvoz-sidebar .nav .nav > li > a:focus {
+  padding-left: 19px;
+}
+.anvoz-sidebar .nav .nav > .active > a,
+.anvoz-sidebar .nav .nav > .active:hover > a,
+.anvoz-sidebar .nav .nav > .active:focus > a {
+  font-weight: 500;
+  padding-left: 18px;
+}
+
+.anvoz-back-to-top {
+  display: block;
+  margin-top: 10px;
+  margin-left: 10px;
+  padding: 4px 10px;
+  font-size: 12px;
+  font-weight: 500;
+  color: #666666;
+}
+.anvoz-back-to-top:hover {
+  text-decoration: none;
+  color: #333;
+}
+
+/* Banner
+-------------------------------------------------- 
+.banner {
+  width: 200px;
+  margin-top: 20px;
+}
+.banner a {
+  font-size: 85%;
+  color: #999;
+}
+.banner a:hover,
+.banner a:active {
+  color: #333;
+  text-decoration: none;
+}
+.banner-thumbnail {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  vertical-align: middle;
+  background-image: url(http://anvoz.github.io/world-js/images/thumb.png);
+  background-position: -160px -60px;
+}*/
+
+/* HTML inspector button styles
+-------------------------------------------------- */
+.js-html-inspector, 
+.colour-palette {
+  position: relative;
+  padding: 20px;
+  margin-bottom: 30px;
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  background-color: white;
+}
+.js-html-inspector .js-btn-inspector {
+  display: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: #000;
+  background-color: #ccc;
+  padding: 15px 20px;
+}
+.js-html-inspector:hover {
+ // background-color: #ccc;
+ // border: 1px solid black;
+  box-shadow: 0px 0px 8px 0px #52A8EC;
+  border: 1px solid #52A8EC;
+}
+.js-html-inspector:hover .js-btn-inspector {
+  display: block;
+}
+#dialog-html-inspector code {
+  word-break: normal;
+  word-wrap: normal;
+  white-space: pre;
+  font-size: 13px;
+}
+/* colour palette */
+.circle {
+    width: 75px;
+    height: 75px;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    margin-top: 20px;
+}
+.circle.bg-white {
+  border: 1px solid #e1e3e6;
+}
