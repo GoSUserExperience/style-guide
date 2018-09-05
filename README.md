@@ -1,9 +1,9 @@
 # All changes to bootstrap css
-Make changes to json file and [recompile here](https://getbootstrap.com/docs/3.3/customize/).
+Make changes to json file and [upload/recompile here](https://getbootstrap.com/docs/3.3/customize/).
 
 # To Do
 
-Delete all gulp files:
+Delete all gulp/node.js files:
 * cleaner download
 * no vulnerability warnings
 
