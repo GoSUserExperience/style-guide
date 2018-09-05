@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kazmeyer/teststyle.git"
+    "url": "git+https://github.com/kazmeyer/style-guide.git"
   },
   "author": "Derek Barnes",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/kazmeyer/teststyle/issues"
+    "url": "https://github.com/kazmeyer/style-guide/issues"
   },
-  "homepage": "https://github.com/kazmeyer/teststyle#readme",
+  "homepage": "https://github.com/kazmeyer/style-guide#readme",
   "devDependencies": {
     "autoprefixer": "^8.6.3",
     "css-mqpacker": "^6.0.2",
