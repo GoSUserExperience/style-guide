@@ -3,9 +3,10 @@ Make changes to json file and [upload/recompile here](https://getbootstrap.com/d
 
 # To Do
 
-Delete all gulp/node.js files:
+Delete all gulp/node.js/src files:
 * cleaner download
 * no vulnerability warnings
+* leave only doc folder?
 
 create template for devs to get started
 * header/footer script
